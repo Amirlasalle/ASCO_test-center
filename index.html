@@ -35,11 +35,11 @@
     <div class="flip-card align-center" >
       <div class="flip-card-inner">
         <div class="flip-card-front">
-         <h3 id="question"></h3>
+         <h3 id="studyQuestion"></h3>
         </div>
         <div class="flip-card-back">
         
-          <p id="Answer"></p> 
+          <p id="studyAnswer"></p> 
           <p></p>
         </div>
       </div>
@@ -56,8 +56,8 @@ crossorigin="anonymous"></script>
 
 </body>
 <body>
-<header class="bg-info">
-    <h1>Code Quiz</h1>
+<header class="bg-success text-center text-white">
+    <h1 id="pop-quiz1">POP-Quiz #1</h1>
 </header>
 <main>
     <section id="intro" class="text-center">
@@ -90,9 +90,58 @@ crossorigin="anonymous"></script>
     <section id="displayStorage">
     
     </section>
+    <footer class="bg-success text-center text-white mb-5 p-5">
+        <img src="./assets/ASCO LOGO.png" alt="#">
+    </footer>
 </main>
 
+<!--QUIZ 2
+SDFSD
+FS
+DF
+SDF
+SD
+F
+SDF
+-->
+<main>
+    <header class="bg-success text-center text-white">
+        <h1 id="pop-quiz2">POP-Quiz #2</h1>
+    </header>
+    <section id="intro2" class="text-center">
+        <p></p>
+        <button id="start2" class="btn btn-secondary btn-lg">Start Quiz</button>
+
+    </section>
+    <section class="d-flex justify-content-evenly">
+        <h3 id="clock2" class="timer"></h3>
+        <h3 id="score2" class="grade"></h3>
+    </section>
+    <section id="quiz2" class="container">
+        <h2 id="question2"></h2>
+        <div class="d-grid gap-2">
+            <button id="option1-2" class="btn btn-success" type="button">Button</button>
+            <button id="option2-2" class="btn btn-primary" type="button">Button</button>
+            <button id="option3-2" class="btn btn-primary" type="button">Button</button>
+            <button id="option4-2" class="btn btn-primary" type="button">Button</button>
+        </div>
+        <h4 id="evaluate2"></h4>
+    </section>
+    <section id="summary2">
+        <h4>Your Final score (timeleft * score): <span id="score-result2"></span></h4>
+        <label>Enter Username</label>
+        <input type="text" id="user-name2" />
+        <button class="btn btn-secondary" id="save-userscore2">Save Score</button>
+    </section>
+   
+
+    <section id="displayStorage2">
     
+    </section>
+    <footer class="bg-success text-center text-white mb-5 p-5">
+        <img src="./assets/ASCO LOGO.png" alt="#">
+    </footer>
+</main>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
